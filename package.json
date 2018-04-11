@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
   "dependencies": {
     "mongodb": "^3.0.6",
+    "nodemon": "^1.17.3",
     "ws": "^5.1.1"
   }
 }
