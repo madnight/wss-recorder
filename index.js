@@ -4,7 +4,7 @@ const MongoClient = require('mongodb').MongoClient;
 
 const ws = new WebSocket(process.env.WSS_URL)
 
-const url = 'mongodb://localhost:27017';
+const url = 'mongodb://mongodb:27017';
 const dbName = 'wss_record';
 
 MongoClient.connect(url, function(err, client) {
